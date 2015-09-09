@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'Audimat';
+  src: url("../font/audimat/AUdimat-Regular.otf") format("opentype");
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #ffffffff;
+  font-size: 1.1rem;
+}
+
+nav .brand-logo {
+  font-family: 'Audimat';
+  font-size: 1.64rem;
+}
+
+nav .button-collapse i {
+  font-size: 1.9rem;
+}
+
+#fabMenu {
+  visibility: hidden;
+}
+
+#experience .row {
+  padding-bottom: 20px;
+}
+
+.fixed-action-btn.active #fabMenu {
+  visibility: visible;
+}
+
+#main-fab {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+}
+
+.theme {
+  color: #2196f3 !important;
+}
+
+.navbar-fixed {
+  position: absolute;
+}
+
+#banner {
+  padding-top: 90px;
+}
+
+.link-btn {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+p {
+  line-height: 2rem;
+}
+
+#about p,
+#about td {
+  color: #757575;
+}
+
+#education .icon-block p {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.button-collapse {
+  color: #ffffffff;
+}
+
+#edu-wrapper {
+  background: url("../images/uwaterloo1.jpg") no-repeat scroll center center / cover;
+}
+
+#edu-content {
+  background: rgba(255, 255, 255, 0.92);
+}
+
+#about,
+#experience,
+#education {
+  height: 50%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#profile-pic {
+  max-width: 90%;
+}
+
+.btn-floating .btn-show {
+  -webkit-transition: all .3s ease !important;
+  transition: all .3s ease !important;
+}
+
+#index-banner {
+  height: 100%;
+}
+
+.col .s12 {
+  padding-left: 0;
+}
+
+.icon-block p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.icon-block table {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
+.parallax-window {
+  min-height: 380px;
+  line-height: 0;
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-window .section {
+  width: 100%;
+}
+
+.icon-block {
+  padding: 0 0 20px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+@media only screen and (max-width:992px) {
+  .parallax-window .section {
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+
+  .brand-logo {
+    position: relative !important;
+    left: 0px !important;
+    -webkit-transform: translateX(0px) !important;
+    transform: translateX(0px) !important;
+    padding-left: 25px !important;
+  }
+
+}
+
+@media only screen and (max-width:600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  #profile-pic {
+    max-width: 75%;
+  }
+
+}
