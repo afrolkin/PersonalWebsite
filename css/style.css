@@ -9,6 +9,15 @@ nav .brand-logo {
   font-size: 1.1rem;
 }
 
+.pg-loading > * {
+    visibility:  !important;
+}
+
+.pg-loaded > * {
+    visibility: visible !important;
+}
+
+
 nav .brand-logo {
   font-family: 'Audimat';
   font-size: 1.64rem;

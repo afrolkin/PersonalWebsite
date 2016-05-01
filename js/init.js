@@ -20,7 +20,10 @@
             loadingHtml: "<div class='sk-double-bounce'><div class='sk-child sk-double-bounce1'></div><div class='sk-child sk-double-bounce2'></div></div>"
         });
                 
-        $(window).load(function(){loading_screen.finish()});
+        $(window).load(function(){
+            loading_screen.finish()
+            new WOW().init();
+        });
 
 		$('.button-collapse').sideNav();
 		$(document).on('scroll', function(e) {
