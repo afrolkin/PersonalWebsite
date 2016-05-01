@@ -12,6 +12,15 @@
 		var mainFabColor = "red";
 		var currentColor = ".blue";
 		var shadowVal = "";
+        
+        // show loading screen
+        var loading_screen = pleaseWait({
+            logo: "",
+            backgroundColor: '#039be5',
+            loadingHtml: "<div class='sk-double-bounce'><div class='sk-child sk-double-bounce1'></div><div class='sk-child sk-double-bounce2'></div></div>"
+        });
+                
+        $(window).load(function(){loading_screen.finish()});
 
 		$('.button-collapse').sideNav();
 		$(document).on('scroll', function(e) {

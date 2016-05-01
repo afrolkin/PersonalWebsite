@@ -150,6 +150,14 @@ footer.page-footer {
   margin: 0;
 }
 
+body > .inner {
+  display: none;
+}
+
+body.pg-loaded > .inner {
+  display: block;
+}
+
 @media only screen and (max-width:992px) {
   .parallax-window .section {
     top: 40%;
