@@ -116,6 +116,10 @@ p {
   max-width: 90%;
 }
 
+#profile-picture {
+    margin-top: 20px;
+}
+
 .btn-floating .btn-show {
   -webkit-transition: all .3s ease !important;
   transition: all .3s ease !important;
