@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+		<meta name="theme-color" content="#2196f3">
+		<title>Andrew Frolkin</title>
+		<meta name="description" content="Personal website for Andrew Frolkin.">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/please-wait.css" rel="stylesheet">
+        <link href="css/spinkit.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="icon" sizes="16x16 32x32 64x64" href="favicon.ico">
+		<link rel="icon" type="image/png" sizes="196x196" href="icon/favicon-192.png">
+		<link rel="icon" type="image/png" sizes="160x160" href="icon/favicon-160.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96.png">
+		<link rel="icon" type="image/png" sizes="64x64" href="icon/favicon-64.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16.png">
+		<link rel="apple-touch-icon" href="icon/favicon-57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="icon/favicon-114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="icon/favicon-72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="icon/favicon-144.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="icon/favicon-60.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="icon/favicon-120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="icon/favicon-76.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="icon/favicon-152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="icon/favicon-180.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="icon/favicon-144.png">
+		<meta name="msapplication-config" content="browserconfig.xml">
+        <script type="text/javascript" src="js/please-wait.min.js"></script>
+	</head>
+	<body>
+		<!-- FAB -->
+		<div class="fixed-action-btn wow zoomIn" data-wow-duration="1.5s" data-wow-delay="1.5s" style="bottom: 45px; right: 24px;">
+			<a class="btn-floating btn-large red fab waves-effect waves-light" id="main-fab">
+				<i class="large material-icons">mode_edit</i>
+			</a>
+			<ul id="fabMenu">
+				<li><a  id="fab-red" class="btn-floating red fab waves-effect waves-light"></a></li>
+				<li><a id="fab-orange" class="btn-floating orange darken-1 fab waves-effect waves-light"></a></li>
+				<li><a id="fab-green" class="btn-floating green fab waves-effect waves-light"></a></li>
+				<li><a id="fab-blue" class="btn-floating blue fab waves-effect waves-light"></a></li>
+			</ul>
+		</div>
+		<!-- Nav Bar -->
+		<div class="navbar-fixed">
+			<nav class="blue" role="navigation">
+				<div class="nav-wrapper container">
+					<a id="logo-container" href="#index-banner" class="brand-logo">Andrew Frolkin</a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="#about-wrapper" class="wow fadeIn" data-wow-duration="2s" data-wow-delay="1.5s">About</a></li>
+						<li><a href="#edu-wrapper" class="wow fadeIn" data-wow-duration="2s" data-wow-delay="1.75s">Education</a></li>
+						<li><a href="#exp-wrapper" class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2s">Experience</a></li>
+					</ul>
+					<ul id="nav-mobile" class="side-nav">
+						<li><a href="#about-wrapper" >About</a></li>
+						<li><a href="#edu-wrapper" >Education</a></li>
+						<li><a href="#exp-wrapper" >Experience</a></li>
+					</ul>
+					<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+				</div>
+			</nav>
+		</div>
+		<!-- Banner Page -->
+		<div id="index-banner" class="parallax-window" data-parallax="scroll" data-bleed="10" data-speed="0.0" data-image-src="images/background1.jpg" data-bleed="10" data-natural-height="2000" data-natural-width="2000" iosFix="true" androidFix="true">
+			<div class="section no-pad-bot" id="index-text">
+				<div class="container">
+					<br><br>
+					<h2 id="banner" class="header center wow fadeIn" data-wow-duration="2s" data-wow-delay="1.2s">Hi! I'm Andrew Frolkin.</h1>
+					<div class="row center">
+						<h5 class="header col s12 light wow fadeIn" data-wow-duration="2s" data-wow-delay="1.7s">An ambitious Computer Science Student</h5>
+					</div>
+					<div class="row center">
+						<a class="btn-floating btn-large blue waves-effect waves-light wow zoomIn" data-wow-duration=".5s" data-wow-delay="1.5s" href="#about-wrapper">
+							<i class="large material-icons">keyboard_arrow_down</i>
+						</a>
+						
+					</div>
+					<br><br>
+				</div>
+			</div>
+		</div>
+		<!-- Profile Section -->
+		<div class="container" id="about-wrapper">
+			<section id="about" class="scroll-section root-sec about-wrap">
+				<div class="row">
+					<!-- About Paragraph -->
+					<div class="col s12 m12 l4">
+						<div class="icon-block">
+							<h5 class="blue-text">About</h5>
+							<p class="light">I'm a Computer Science student interested in all things mobile development. I have a keen eye for design and I love playing around with the newest technologies. In the past, I've also experimented with game development and web development. Outside of software development, I'm interested in photography and traveling. I also love playing the latest video games and I'm a huge movie buff! </p>
+							<a href="AndrewFrolkinResume.pdf" id="download-button" class="btn-large waves-effect waves-light blue lighten-1">Resume</a>
+						</div>
+					</div>
+					<!-- Profile Picture -->
+					<div class="col s12 m6 l4" id="profile-picture">
+						<div class="icon-block">
+							<img id="profile-pic" src="images/profile.jpg" alt="" class="circle responsive-img center-align wow fadeIn">
+						</div>
+					</div>
+					<!-- Contact Details -->
+					<div class="col s12 m6 l4">
+						<div class="icon-block">
+							<table class="bordered">
+								<h5 class="blue-text">Contact</h5>
+								<tbody>
+									<tr>
+										<td>Name: </td>
+										<td>Andrew Frolkin </td>
+									</tr>
+									<tr>
+										<td>Phone: </td>
+										<td>+1 519 572 9156</td>
+									</tr>
+									<tr>
+										<td>Location: </td>
+										<td>Waterloo, Ontario</td>
+									</tr>
+									<tr>
+										<td>Email: </td>
+										<td><a href="mailto:mail@andrewfrolkin.com"> mail@andrewfrolkin.com </a> </td>
+									</tr>
+								</tbody>
+							</table>
+							<a class="link-btn btn-floating waves-effect waves-light blue wow zoomIn" data-wow-duration=".5s" data-wow-delay=".5s" href="https://github.com/afrolkin"><i class="fa fa-github"></i>
+							</a>
+							<a class="link-btn btn-floating waves-effect waves-light blue wow zoomIn" data-wow-duration=".5s" data-wow-delay=".7s" href="https://ca.linkedin.com/in/andrewfrolkin"><i class="fa fa-linkedin"></i></a>
+							<a class="link-btn btn-floating waves-effect waves-light blue wow zoomIn" data-wow-duration=".5s" data-wow-delay=".9s" href="https://plus.google.com/117493253452704155268/posts"><i class="fa fa-google-plus"></i></a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- Education Section -->
+		<div id="edu-wrapper">
+			<div id="edu-content">
+				<div class="container">
+					<section id="education" class="scroll-section root-sec about-wrap">
+						<div class="row">
+							<div class="col s12 m12 l12">
+								<div class="icon-block">
+									<h5 >Education</h5>
+								</div>
+							</div>
+						</div>
+						<!-- Education Card -->
+						<div class="row valign-wrapper" id="edu-row">
+							<div class="col s12 m6 l6">
+								<div class="card wow fadeInUp" data-wow-duration=".4s">
+									<div class="card-image">
+										<img src="images/uwaterloo2.jpg">
+										<span class="card-title">University of Waterloo</span>
+									</div>
+									<div class="card-content ">
+										<span class="card-title blue-text">Bachelor of Computer Science</span>
+										<p>Sept 2012 - Present</p>
+									</div>
+								</div>
+							</div>
+							<!-- Education Paragraph -->
+							<div class="col s12 m6 l6">
+								<div class="icon-block">
+									<p class="light">I'm currently studying Honours Computer Science (Software Engineering Option) at the University of Waterloo with an expected graduation date of September 2017. Other than Computer Science courses, I also enjoy taking a Philosophy course here and there. </p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<!-- Experience Section -->
+		<div class="blue z-depth-2" id="exp-wrapper">
+			<div class="container">
+				<section id="experience" class="scroll-section root-sec experience-wrap">
+					<div class="row">
+						<div class="col s12 m12 l12">
+							<h5 class="white-text">Experience</h5>
+						</div>
+					</div>
+					<!-- Experience Cards -->
+					<div class="row">
+                        <div class="col s12 m6 l3">
+							<div class="card wow fadeInUp" data-wow-duration=".4s">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="images/ibmixm2.png">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator blue-text">Mobile Developer<i class="material-icons right">more_vert</i></span>
+									<p>Jan 2016 - Apr 2016</p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title blue-text">Mobile Developer<i class="material-icons right">close</i></span>
+									<p>I worked with a team of consultants responsible for developing a number of innovative proof of concepts for Scotiabank involving eSignature, Mobile ABM authentication, Out-of-band authentication and mobile branch check in. I was involved with all aspects of development, including design, architecture, NodeJS server side and iOS and Web client side development. </p>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l3">
+							<div class="card wow fadeInUp" data-wow-duration=".4s">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="images/blackberry.jpg">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator blue-text">Solutions Developer<i class="material-icons right">more_vert</i></span>
+									<p>May 2015 - Aug 2015</p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title blue-text">Enterprise Solutions Developer<i class="material-icons right">close</i></span>
+									<p>I worked with the developer relations team to provide Android support for partners and customers. I did a lot of work with the <a href="https://developer.blackberry.com/android/" >Android Runtime</a>, developing sample applications and writing a number of blog posts. I also worked with <a href="https://play.google.com/store/apps/details?id=com.blackberry.workspace.launcher&hl=en">Secure Workspace for Android</a>. You can check out the samples I developed <a href="https://github.com/blackberry/BB10-Android-Runtime-Samples">here</a> and <a href="https://github.com/blackberry/Secure-Work-Space">here</a>, and the blog posts I wrote <a href="http://devblog.blackberry.com/?s=andrew+frolkin">here</a>! </p>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l3">
+							<div class="card wow fadeInUp" data-wow-delay=".15s" data-wow-duration=".4s">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="images/oanda.png">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator blue-text">Android Developer<i class="material-icons right">more_vert</i></span>
+									<p>Sept 2014 - Dec 2014</p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title blue-text">Android Developer<i class="material-icons right">close</i></span>
+									<p>I helped the fxTrade Android team launch <a href="https://play.google.com/store/apps/details?id=com.oanda.fxtrade&hl=en" >fxTrade 4.0</a>, OANDA's mobile forex trading application for Android tablets and phones. I implemented valuable features and critical bug fixes while also working on the legacy fxTrade 3.0 application. I learned about the difficulties involved with Android fragmentation and hardships of developing an intricate and complicated app designed for various screen sizes. </p>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l3">
+							<div class="card wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".4s">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="images/oanda.png">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator blue-text">Web Developer<i class="material-icons right">more_vert</i></span>
+									<p>Jan 2014 - Apr 2014</p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title blue-text">Web Developer<i class="material-icons right">close</i></span>
+									<p>I worked with the fxTrade Web team to develop <a href="https://app.oanda.com">fxTrade Web</a>, a modern and responsive web version of OANDA's mobile forex trading platform. During my time here, I also won OANDA's semi-annual hackathon with a team of students by developing an <a href="https://github.com/RayCui/forwardsim">algorithmic trading application</a> utilizing <a href="http://developer.oanda.com/" >OANDA's open rest API</a>. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		
+		<!-- Second parallax container -->
+		<div class="parallax-window valign-wrapper" data-parallax="scroll" data-image-src="images/background2.jpg" data-bleed="10" data-natural-height="2000" data-natural-width="2000" iosFix="true" androidFix="true">
+			<div class="section no-pad-bot valign-wrapper">
+				<div class="container">
+					<div class="row center">
+						<h5 class="header col s12 light"></h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer -->
+		<footer class="page-footer blue z-depth-2">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<p class="grey-text text-lighten-4">This website was built with the <a class="blue-text text-lighten-4" href="http://materializecss.com/" >Materialize CSS framework</a> and utilizes the <a class="blue-text text-lighten-4"href="http://mynameismatthieu.com/WOW/">wow.js</a>, <a class="blue-text text-lighten-4" href="http://pixelcog.github.io/parallax.js/" >parallax.js</a> and <a class="blue-text text-lighten-4" href="https://github.com/snaptortoise/konami-js">konami.js</a> libraries. Satellite images are from <a class="blue-text text-lighten-4" href="http://www.geo-airbusds.com/satellite-image-gallery/">Airbus</a>.</p>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Links</h5>
+						<ul>
+							<li><a class="blue-text text-lighten-4" href="http://www.geo-airbusds.com/satellite-image-gallery/">Airbus Satellite Photography</a></li>
+							<li><a class="blue-text text-lighten-4" href="https://cs.uwaterloo.ca/">University of Waterloo Computer Science</a></li>
+							<li><a class="blue-text text-lighten-4" href="http://materializecss.com/">Materialize CSS</a></li>
+							<li><a class="blue-text text-lighten-4" href="https://csclub.uwaterloo.ca/">UW CSC</a></li>
+						</ul>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Connect</h5>
+						<ul>
+							<li><a class="blue-text text-lighten-4" href="https://ca.linkedin.com/in/andrewfrolkin">Linked In</a></li>
+							<li><a class="blue-text text-lighten-4" href="href=https://github.com/afrolkin">GitHub</a></li>
+							<li><a class="blue-text text-lighten-4" href="https://plus.google.com/117493253452704155268/posts">Google Plus</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					© Andrew Frolkin 2015. All rights reserved.
+				</div>
+			</div>
+		</footer>
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+        <script src="js/wow.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/parallax.min.js"></script>
+		<script src="js/konami.js"></script>
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-67385301-1', 'auto');
+		ga('send', 'pageview');
+		</script>
+	</body>
+</html>
